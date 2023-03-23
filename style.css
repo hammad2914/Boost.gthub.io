@@ -1,0 +1,479 @@
+
+ body{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    font-size: 62.5%;
+    color: white;
+    font-family: "GT Flexa Med", Helvetica, sans-serif;
+}
+
+.main1 {
+    background: linear-gradient(315.01deg, #ff710d 8.31%, #ffb800 88.22%);
+    background-attachment: fixed;
+    height: 100%;
+    padding: 35px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    font-size: 1.2rem;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding-bottom: 8px;
+    height: 45px;
+
+
+}
+
+.nav ul {
+    padding: 0px 25px;
+
+}
+
+.nav li {
+    list-style: none;
+    display: inline;
+    padding: 10px 30px;
+
+}
+
+.cart button {
+    font-size: 1.2rem;
+    padding: 13px 20px;
+
+}
+
+.title {
+    display: flex;
+}
+
+.title_heading {
+    font-size: 8rem;
+    width: 70vw;
+    color: white;
+    margin: 80px 0px;
+    font-weight: 700;
+    line-height: 95%;
+
+
+}
+
+.title_heading h3 {
+    letter-spacing: -10px;
+    margin: 0%;
+    font-weight: 900;
+}
+
+.title_heading p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 0px;
+    position: absolute;
+    left: 50%;
+    top:70%;
+    line-height: 100%;
+}
+
+.title_bottle {
+    overflow: hidden;
+    width: 30vw;
+
+}
+
+.title_bottle img {
+    rotate: -15.5deg;
+    width: 500px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 10%;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content1 {
+    border-radius: 50%;
+    border: 2px solid white;
+    max-width: 36vw;
+    font-size: 4.5rem;
+    padding: 5%;
+    height: 480px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 120%;
+    float: left;
+}
+
+.content2 {
+    max-width: 25vw;
+    float: right;
+    padding: 8%;
+}
+
+.content2 h1 {
+    font-size: 2.6rem;
+
+
+}
+
+.content2 h2 {
+    font-weight: 200;
+    text-align: left;
+    font-size: 1.3rem;
+
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 60px;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+.title2 {
+    width: 90vw;
+    font-size: 8rem;
+    box-sizing: border-box;
+    margin: 0%;
+    overflow: hidden;
+    font-weight: 900;
+    padding: 0% 5%;
+    line-height: 90%;
+
+}
+
+.title2 h3 {
+
+    font-weight: 700;
+}
+
+.title2 span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1;
+
+}
+
+.image {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ingredients h2 {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 10%;
+}
+
+.ingredients p {
+    font-size: .8rem;
+}
+
+.benefits p {
+    font-size: .8rem;
+    text-align: left;
+    margin-left: 35px;
+}
+
+.benefits li {
+    list-style: none;
+    font-size: 1.4rem;
+    border-bottom: 1px solid white;
+    line-height: 2;
+
+}
+
+.title3 h3 {
+    font-size: 9rem;
+    font-weight: 800;
+    line-height: .8;
+    padding: 0px 5vw;
+}
+
+.cards_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content3 {
+    border-radius: 50%;
+    border: 2px solid white;
+    max-width: 36vw;
+    font-size: 4rem;
+    padding: 5%;
+    height: 480px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 140%;
+    float: left;
+}
+
+.cardinfo {
+    float: right;
+    font-size: 1.8rem;
+    width: 17vw;
+    padding-top: 150px;
+    margin-right: 60px
+}
+
+.cardinfo p {
+    font-size: 1rem;
+}
+
+.card {
+    border: 2px solid white;
+    width: 300px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.cards,
+.cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+hr {
+    border: 1px dashed white;
+}
+
+.text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.foot {
+    padding-right: 30px;
+    font-size: 8.5rem;
+    line-height: .8;
+}
+
+.foot h3 {
+    font-weight: 900;
+}
+
+.footer_icon:hover {
+    transition: .5s;
+    transform: rotate(360deg);
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navi li {
+    font-size: 1rem;
+    font-weight: 700;
+    list-style: none;
+    line-height: 2;
+}
+
+.navi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact {
+    font-weight: 600;
+    font-size: .7rem;
+}
+
+.contact button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+@media (min-width:641px) and (max-width:992px) {
+    html {
+        font-size: 55%;
+    }
+
+    .title_heading p {
+        top: 50%;
+    }
+
+    .title {
+        display: block;
+    }
+
+    .title_bottle img {
+        rotate: 0deg;
+        width: 400px;
+        margin-right: 50%;
+        margin-left: 0;
+        position: static;
+    }
+
+    .title_bottle {
+        overflow: hidden;
+        width: 90vw;
+    }
+
+    .content {
+        display: block;
+    }
+    .content1 {
+        
+        max-width: 90vw;
+        height: 280px;
+        line-height: 120%;
+        float:center;
+    }
+    
+    .content2 {
+        max-width: 25vw;
+        float: left;
+        padding: 8%;
+    }
+    .image {
+        display: block;
+    }
+    .cards_content {
+        display: block;
+        
+    }
+    
+    .content3 {
+        max-width: 50vw;
+        height: 280px;
+        float: none;
+    }
+    .cardinfo {
+        float: none;}
+    .cards1 ,.cards{
+        display: block;
+    }
+    .card{
+        margin-top: 50px;
+    }
+    #circ{
+        width: 60;
+        height: 60;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:640px) {
+    html {
+        font-size: 42%;
+    }
+
+    .title {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .title_heading h3 {
+        letter-spacing: -5px;
+    }
+
+    .title_bottle img {
+        rotate: 0deg;
+        width: 350px;
+        margin-right: 0;
+        margin-left: 0;
+        position: static;
+        float: left;
+        overflow: hidden;
+    }
+
+    .title_bottle {
+        overflow: hidden;
+        width: 90vw;
+        float: left;
+    }
+
+    .content {
+        display: block;
+    }
+    .content1 {
+        
+        max-width: 90vw;
+        height: 180px;
+        line-height: 120%;
+        float:center;
+    }
+    
+    .content2 {
+        max-width: 45vw;
+        float: left;
+        padding: 8%;
+    }
+    .image {
+        display: block;
+        
+    }
+    .cards_content {
+        display: block;
+        
+    }
+    
+    .content3 {
+        max-width: 50vw;
+        height: 280px;
+        float: none;
+    }
+    .cardinfo {
+        float: none;}
+
+        .cards1 ,.cards{
+            display: block;
+        }
+        .card{
+            margin-top: 50px;
+        }
+        #circ{
+            width: 60;
+            height: 60;
+        }
+        .title2{
+            font-size: 7rem;
+            padding: 0%;
+        }
+        .title_heading p {
+            top: 45%;
+        }
+}
